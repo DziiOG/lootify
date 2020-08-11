@@ -33,6 +33,8 @@ const register = (req, res, next) => {
                     displayName: req.body.firstName + " " + req.body.lastName,
                     email: req.body.email,
                     phone: req.body.phone,
+                    addedToCart: [],
+                    favorites: [],
                     password: hashedPass,
                   });
           
@@ -108,13 +110,13 @@ const signin = (req, res, next) => {
               });
             } else {
              return res.status(400).json({
-                message: "Password does not match",
+                message: "Password is incorrect",
               });
             }
           });
         } else {
          return res.status(400).json({
-            message: "No user found",
+            message: "Incorrect credentials",
           });
         }
       });

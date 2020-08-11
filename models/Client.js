@@ -26,6 +26,12 @@ const ClientSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    addedToCart: {
+      type: Array
+    },
+    favorites: {
+      type: Array
+    },
     createdAt: {
       type: Date,
       default: Date.now,

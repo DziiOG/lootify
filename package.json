@@ -10,7 +10,12 @@
   "author": "Whitson Dzimah",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/system": "^4.9.14",
     "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.5.0",
+    "clsx": "^1.1.1",
     "connect-mongo": "^3.2.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
@@ -19,6 +24,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "formidable": "^1.2.2",
+    "framer": "^1.2.5",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.27",
@@ -26,6 +32,14 @@
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
     "uuid": "^8.3.0"
   }
 }
