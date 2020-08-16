@@ -162,7 +162,7 @@ router.put("/:productId", checkAuth, async (req, res) => {
               descriptionOfProduct: fields.descriptionOfProduct,
               company: fields.company,
               category: fields.category,
-              image: newPath,
+              image: imageName,
               outOfStock: false,
             };
 
